@@ -11,5 +11,19 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+##### Environment variable
+
+# Editor
+export EDITOR=nvim
+export VISUAL=nvim
+export MYVIMRC="~/.dotfiles/init.vim"
+
+# Miek_Bot
+export MIEK_TOKEN='463033409:AAFQvrm7vCQQ0CPfG7zsc9F1o6xuP3rE2ok'
+
+##### Aliases
 alias cl=clear
 alias vim=nvim
+alias gotopl='cd ~/Master/mcs-git/pl/'
+alias zshrc='vim ~/.zshrc'
