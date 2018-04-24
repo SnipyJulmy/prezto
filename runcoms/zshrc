@@ -23,5 +23,10 @@ export MYVIMRC="~/.dotfiles/init.vim"
 ##### Aliases
 alias cl=clear
 alias vim=nvim
-alias gotopl='cd ~/Master/mcs-git/pl/'
 alias zshrc='vim ~/.zshrc'
+
+# goto
+alias gotopl='cd ~/Master/mcs-git/pl/'
+alias gotoos-project='cd ~/Master/mcs-git/os/project/'
+alias run-client='/home/snipy/Master/mcs-git/os/project/key-value-database/cmake-build-debug/src/client/client 127.0.0.1'
+alias run-server='/home/snipy/Master/mcs-git/os/project/key-value-database/cmake-build-debug/src/server/server'
