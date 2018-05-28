@@ -35,3 +35,4 @@ alias gotosop-project='cd ~/Master/mcs-git/sys-oriented-prog/project/'
 
 alias run-client='/home/snipy/Master/mcs-git/os/project/key-value-database/cmake-build-debug/src/client/client 127.0.0.1'
 alias run-server='/home/snipy/Master/mcs-git/os/project/key-value-database/cmake-build-debug/src/server/server'
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
